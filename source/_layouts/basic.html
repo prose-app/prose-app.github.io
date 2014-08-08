@@ -1,0 +1,10 @@
+---
+layout: base
+---
+
+{% capture root_url %}{{ site.root | strip_slash }}{% endcapture %}
+
+{% include header.html %}
+<div id="content">
+  {{ content | expand_urls: root_url }}
+</div>

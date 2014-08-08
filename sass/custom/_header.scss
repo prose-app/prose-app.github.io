@@ -1,0 +1,114 @@
+header { 
+  a, li a {
+    //color: $text-color-pink;
+    text-decoration: none;
+    @include link-colors($link-color, $hover: $text-color-pink, $focus: $text-color-pink, $visited: $text-color-pink, $active: $text-color-pink);
+  }
+  
+  #app-name {
+    font-size: 2.8em;
+  }
+  
+  #app-slogan {
+    font-size: 1.4em;
+    font-weight: 100;
+    color: $text-color-pink;
+  }
+  
+  .header-block {
+    padding-top: 0.4em;
+    #app-name {
+      font-size: 3em;
+      padding-top: 0.4em;
+      margin-bottom: 0;
+    }
+    #app-slogan {
+      font-size: 1.2em;
+      padding-bottom: 0em;
+      line-height: 1.3em;
+      padding: 0.4em 0;
+      letter-spacing: 1px;
+    }
+  }
+  
+  .app-icon {
+    margin-bottom: 10px;
+    img { width: 3.4em; }
+  }
+  
+  .header-inline {
+    .app-icon {
+      display: inline-block;
+      img { width: 2em; }
+    }
+    #app-name { 
+      font-size: 2em;
+      display: inline-block;
+      margin-bottom: 0.4em;
+    }
+    #app-slogan { display: none; }
+    
+    /*ul.main-navigation {
+      display: inline-block;
+      border-top: 1px solid lighten($text-color-pink, 34);
+      margin-left: 0;
+      padding-top: 0.4em;
+      li {
+        display: inline-block;
+        list-style-type: none;
+        padding: 0 0.4em;
+      }
+    } */
+    .main-navigation a {
+      @include link-colors(lighten($link-color, 20), $hover: lighten($text-color-pink, 4), $focus: lighten($text-color-pink, 20), $visited: lighten($text-color-pink, 20), $active: lighten($text-color-pink, 20));
+    }
+    
+    
+    ul.main-navigation {
+      border-top: none;
+      padding-top: 0.2em;
+      font-size: 0.8em;
+      float: right;
+      margin: 2em 0 0 0;
+      li { 
+        display: inline-block;
+        margin-left: 0.4em;
+      }
+      :nth-of-type(li) { margin-left: 1em; }
+    }
+    .app-icon, #app-name {
+      display: inline-block;
+      margin-right: 0.7em;
+      img {
+        width: 2em;
+        position: relative;
+        top: 0.35em;
+      }
+    }
+  }
+  
+  .header-block {
+    
+  }
+  
+  
+  @media only screen and (min-width: 768px) {
+    .header-block {
+      #app-name { font-size: 3.2em}
+    }
+    .header-inline {
+      #app-name {
+        font-size: 2.4em;
+      }
+      .app-icon img {
+        width: 2.4em;
+      }
+      ul.main-navigation { font-size: 1em; }
+    }
+  }
+  
+  @media only screen and (min-width: 992px) {
+    #app-name { font-size: 3.4em}
+    ul.main-navigation { font-size: 1.2em; }
+  }
+}

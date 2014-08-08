@@ -1,0 +1,25 @@
+---
+layout: basic
+title: blog
+date: 2014-07-02 18:00
+---
+
+
+<div class="blog-index">
+  {% assign index = true %}
+  {% for post in paginator.posts %}
+  {% assign content = post.content %}
+    <article>
+      {% include custom/article.html post=true %}
+    </article>
+  {% endfor %}
+  <div class="pagination">
+    {% if paginator.next_page %}
+      <a class="prev" href="{{paginator.next_page_path}}">&larr; Older</a>
+    {% endif %}
+    <a href="/blog/archives">Blog Archives</a>
+    {% if paginator.previous_page %}
+    <a class="next" href="{{paginator.previous_page_path}}">Newer &rarr;</a>
+    {% endif %}
+  </div>
+</div>

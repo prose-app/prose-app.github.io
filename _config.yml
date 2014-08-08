@@ -3,9 +3,9 @@
 # ----------------------- #
 
 url: http://prose-app.github.io
-title: My Octopress Blog
-subtitle: A blogging framework for hackers.
-author: Your Name
+title: Prose for App.net
+subtitle: A concise App.net experience
+author: Shawn Throop
 simple_search: https://www.google.com/search
 description:
 
@@ -41,8 +41,8 @@ rdiscount:
     - smart
 highlighter: pygments # default python pygments have been replaced by pygments.rb
 
-paginate: 10          # Posts per page on the blog index
-paginate_path: "posts/:num"  # Directory base for pagination URLs eg. /posts/2/
+paginate: 5          # Posts per page on the blog index
+paginate_path: "blog/posts/:num"  # Directory base for pagination URLs eg. /posts/2/
 recent_posts: 5       # Posts in the sidebar Recent Posts section
 excerpt_link: "Read on &rarr;"  # "Continue reading" link text at the bottom of excerpted articles
 excerpt_separator: "<!--more-->"
@@ -99,3 +99,19 @@ google_analytics_tracking_id:
 
 # Facebook Like
 facebook_like: false
+
+# ----------------- #
+#   App Settings    #
+# ----------------- #
+
+# Description
+app_name: Prose
+app_slogan: A concise App.net experience
+
+# Images
+app_icon: "images/prose-icon.png"
+app_screenshot: "images/prose-iphone-5s-white-timeline.png"
+
+# URL
+app_url: /
+app_is_live: false

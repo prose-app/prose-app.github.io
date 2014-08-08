@@ -1,0 +1,7 @@
+<div class="app-store-button">
+  {% unless site.app_is_live == false %}
+  <a href={% if page.app_url.length > 0 %}{{ page.app_url }}{% else %}{{ site.app_url }}{% endif %}><img alt="App Store Link" src="../images/app-store-button.svg" title="App Store"></a>
+  {% else %}
+  <h2>Coming Soon</h2>
+  {% endunless %}
+</div>

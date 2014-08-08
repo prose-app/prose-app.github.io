@@ -1,0 +1,17 @@
+---
+layout: base
+title: false
+---
+
+<div id="content">
+  <div>  
+    <article role="article" class="landing">
+      {% include header.html inline=false nav=false %}
+      {% unless page.app-screenshot == false %}{% include custom/app-screenshot.html %}{% endunless %}
+      <hr class="break"/>
+      {{ content | markdownify }}
+      {% include custom/app-store-button.html %}
+    </article>
+  </div>
+</div>
+

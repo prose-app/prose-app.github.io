@@ -1,4 +1,7 @@
 <p>
+  {% if site.app_is_live %}<a href="{{ site.root }}blog">Blog</a> - {% endif %}<a href="{{ site.root }}support">Support</a>
+</p>
+<p>
   Copyright &copy; {{ site.time | date: "%Y" }} - {{ site.author }} -
-  <span class="credit">Powered by <a href="http://octopress.org">Octopress</a></span>
+  <span class="credit">Site powered by <a href="http://octopress.org">Octopress</a></span>
 </p>

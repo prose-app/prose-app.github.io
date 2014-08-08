@@ -1,6 +1,14 @@
-<hgroup>
-  <h1><a href="{{ root_url }}/">{{ site.title }}</a></h1>
-  {% if site.subtitle %}
-    <h2>{{ site.subtitle }}</h2>
-  {% endif %}
-</hgroup>
+{% capture inline %}{{ inlcude.inline }}{% endcapture %}
+
+<header>
+  <div class="header-{% if include.inline == false %}block{% else %}inline{% endif %}">
+    {% unless page.icon == false or inline.icon == false %}{% include custom/app-icon.html %}{% endunless %}
+    {% if site.app_name %}<h1 id="app-name"><a href="{{ root_url }}/">{% if site.titlecase %}{{ site.app_name | titlecase }}{% else %}{{ site.app_name }}{% endif %}</a></h1>{% endif %}
+    {% unless inline == true  %}
+      {% if site.app_slogan %}<h2 id="app-slogan">{{ site.app_slogan }}</h2>{% endif %}
+    {% endunless %}
+    {% unless include.nav == false %}
+      {% include custom/navigation.html %}
+    {% endunless %}
+  </div>
+</header>

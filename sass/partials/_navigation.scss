@@ -1,4 +1,4 @@
-body > nav {
+/*body > nav {
   position: relative;
   background-color: $nav-bg;
   @include background($nav-bg-front, $nav-bg-back);
@@ -96,7 +96,7 @@ body > nav {
       width: $sidebar-width-wide - $pad-wide - $sidebar-pad-wide*2 - 58px;
     }
   }
-}
+} */
 .no-placeholder {
   body > nav .search {
     background: lighten($nav-bg, 15) image-url('search.png') .3em .25em no-repeat;

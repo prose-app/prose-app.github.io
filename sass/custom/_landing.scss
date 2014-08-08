@@ -1,0 +1,63 @@
+header {
+  fieldset.mobile-nav { 
+    display: none;
+  }
+}
+
+#content {
+  //margin-top: $header-padding-top;
+  
+  .landing {
+    hr.break {
+      display: none;
+      width: 1.4em;
+      height: 2px;
+      padding: 0;
+      margin-bottom: 0;
+      background: lighten($text-color-pink, 36);
+      border: none;      
+      @include border-radius(1px);
+    }
+    
+    ul {
+      margin-top: 1.4em;
+      
+      li {
+        font-weight: 100;
+        margin-bottom: 0.6em;
+        letter-spacing: 1px;
+        color: $text-color-orange;
+        font-size: 1em;
+      }
+    }
+    
+    .app-store-button {
+      margin-top: 2.4em;
+      margin-bottom: 2em;
+      font-weight: 100;
+    }
+    
+    @media only screen and (min-width: 480px) {
+      .app-screenshot img {
+        width: 340px;
+      }
+      
+      .app-icon img {
+        width: 128px;
+      }
+    }
+    
+    @media only screen and (min-width: 992px) {
+      margin-right: 50%;
+      div.app-screenshot {
+        position: absolute;
+        left: 52%;
+        top: $header-padding-top * 2;
+        height: 0;
+      }
+      hr.break {
+        display: inline-block;
+      }
+    }
+  }
+}

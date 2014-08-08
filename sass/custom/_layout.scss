@@ -19,3 +19,57 @@
 //$sidebar-pad-medium: 15px;
 //$sidebar-pad-wide: 20px;
 //$sidebar-width-wide: 300px;
+
+$width-mobile: 280px;
+$width-small: 420px;
+$width-medium: 578px;
+$width-large: 642px;
+
+#background {
+  position: absolute;
+  width: 100%;
+  height: 600px;
+  z-index: -1;
+  top: 0;
+}
+
+@mixin responsive-width {
+  @media only screen and (min-width: 480px) {
+    width: $width-small;
+  }
+  @media only screen and (min-width: 768px) {
+    width: $width-medium;
+  }
+  @media only screen and (min-width: 992px) {
+    width: $width-large;
+  }
+}
+
+
+#main {
+  .blog-index > article, .blog-index > div.pagination, .single-post > article, .single-post > div.pagination, .single-page > article, .single-page > div.pagination, header .header-inline {
+    width: $width-mobile; 
+    margin: 0 auto;
+    @include responsive-width;
+  }
+  .blog-index, .single-post, .single-page {
+    @media only screen and (min-width: 768px) {
+      margin: { top: 2em; bottom: 2em; }
+    }
+    article > :last-child { padding-bottom: 2em; }
+  }
+}
+
+hr {
+  border: none;
+  border-top: 1px solid darken(white, 4);
+  width: 100%;
+}
+.app-screenshot img {
+  width: 300px;
+}
+
+.app-icon img {
+  width: 96px;
+  margin-top: 1em;
+}
