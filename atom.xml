@@ -1,13 +1,13 @@
 <?xml version="1.0" encoding="utf-8"?>
 <feed xmlns="http://www.w3.org/2005/Atom">
 
-  <title><![CDATA[My Octopress Blog]]></title>
+  <title><![CDATA[Prose for App.net]]></title>
   <link href="http://prose-app.github.io/atom.xml" rel="self"/>
   <link href="http://prose-app.github.io/"/>
-  <updated>2014-08-08T14:39:57-03:00</updated>
+  <updated>2014-08-08T14:53:35-03:00</updated>
   <id>http://prose-app.github.io/</id>
   <author>
-    <name><![CDATA[Your Name]]></name>
+    <name><![CDATA[Shawn Throop]]></name>
     
   </author>
   <generator uri="http://octopress.org/">Octopress</generator>
