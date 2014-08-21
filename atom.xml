@@ -4,7 +4,7 @@
   <title><![CDATA[Prose for App.net]]></title>
   <link href="http://prose-app.github.io/atom.xml" rel="self"/>
   <link href="http://prose-app.github.io/"/>
-  <updated>2014-08-14T01:42:14-03:00</updated>
+  <updated>2014-08-21T13:13:37-04:00</updated>
   <id>http://prose-app.github.io/</id>
   <author>
     <name><![CDATA[Shawn Throop]]></name>
@@ -12,5 +12,31 @@
   </author>
   <generator uri="http://octopress.org/">Octopress</generator>
 
+  
+  <entry>
+    <title type="html"><![CDATA[Announcing Prose]]></title>
+    <link href="http://prose-app.github.io/blog/2014/08/21/announcing-prose/"/>
+    <updated>2014-08-21T00:34:00-04:00</updated>
+    <id>http://prose-app.github.io/blog/2014/08/21/announcing-prose</id>
+    <content type="html"><![CDATA[<p>Prose is a new client for App.net. It&rsquo;s uses three panes and a simple swipe navigation to provide an uncluttered and useful App.net experience.</p>
+
+<h2>Features</h2>
+
+<p>Prose supports the features of any basic App.net client as well as some others:</p>
+
+<ul>
+<li><p><strong>Multiple accounts</strong> - Sign into more than one account with ease, App.net Passport and 1Password are supported. Quickly switch between accounts by tapping on the navigation bar from any pane.</p></li>
+<li><p><strong>Push notifications</strong> - Keep up to date and choose which types of notifications you receive on a per-account basis.</p></li>
+<li><p><strong>Advanced composing</strong> - Post messages with inline markdown links and attach photos in the camera roll or taken in the app. Prose smartly cleans up images from your App.net storage if you decide not to post them.</p></li>
+<li><p><strong>Robust sharing</strong> - Save links for later with Instapaper, Pocket, Pinboard, Readability, and Safari&rsquo;s Reading List. Annotating Pinboard links is supported natively.</p></li>
+<li><p><strong>Stream marker</strong> - Prose will automatically update your reading position so you can use App.net from multiple platforms and apps without loosing your place.</p></li>
+</ul>
+
+
+<p>Prose was designed to be simple, uncluttered, and most of all useful. Get it <a href="https://itunes.apple.com/us/app/prose-for-app.net/id900900989?ls=1&amp;mt=8">on the App Store</a> today.</p>
+
+<p>Follow <a href="http://app.net/prose">@prose</a> to keep up to date and <a href="http://app.net/c/w2m8">subscribe to the broadcast channel</a> to be notified when updates are available.</p>
+]]></content>
+  </entry>
   
 </feed>
