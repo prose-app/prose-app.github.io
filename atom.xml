@@ -4,7 +4,7 @@
   <title><![CDATA[Prose for App.net]]></title>
   <link href="http://prose-app.github.io/atom.xml" rel="self"/>
   <link href="http://prose-app.github.io/"/>
-  <updated>2014-08-21T15:00:51-04:00</updated>
+  <updated>2014-08-21T15:01:55-04:00</updated>
   <id>http://prose-app.github.io/</id>
   <author>
     <name><![CDATA[Shawn Throop]]></name>
@@ -15,9 +15,9 @@
   
   <entry>
     <title type="html"><![CDATA[Why Now?]]></title>
-    <link href="http://prose-app.github.io/blog/2014/08/21/wth/"/>
+    <link href="http://prose-app.github.io/blog/2014/08/21/why-now/"/>
     <updated>2014-08-21T12:49:15-04:00</updated>
-    <id>http://prose-app.github.io/blog/2014/08/21/wth</id>
+    <id>http://prose-app.github.io/blog/2014/08/21/why-now</id>
     <content type="html"><![CDATA[<p>Since the App.net <a href="http://blog.app.net/2014/05/06/app-net-state-of-the-union/">State of the Union announcement</a> there have been many discussions about App.net, its success, and its ability to continue running. Regardless of those discussions and the fact that App.net remains a functioning service, I believe it is no longer an economically viable platform to build apps on.</p>
 
 <p>So why would I continue to create a client application for a service that might disappear before it&rsquo;s approved by Apple?</p>
