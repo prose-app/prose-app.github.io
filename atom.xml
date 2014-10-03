@@ -4,7 +4,7 @@
   <title><![CDATA[Prose for App.net]]></title>
   <link href="http://prose-app.github.io/atom.xml" rel="self"/>
   <link href="http://prose-app.github.io/"/>
-  <updated>2014-08-21T15:38:08-04:00</updated>
+  <updated>2014-10-03T23:35:32+02:00</updated>
   <id>http://prose-app.github.io/</id>
   <author>
     <name><![CDATA[Shawn Throop]]></name>
@@ -16,7 +16,7 @@
   <entry>
     <title type="html"><![CDATA[Why Now?]]></title>
     <link href="http://prose-app.github.io/blog/2014/08/21/why-now/"/>
-    <updated>2014-08-21T12:49:15-04:00</updated>
+    <updated>2014-08-21T18:49:15+02:00</updated>
     <id>http://prose-app.github.io/blog/2014/08/21/why-now</id>
     <content type="html"><![CDATA[<p>Since the App.net <a href="http://blog.app.net/2014/05/06/app-net-state-of-the-union/">State of the Union announcement</a> there have been many discussions about App.net, its success, and its ability to continue running. Regardless of those discussions and the fact that App.net remains a functioning service, I believe it is no longer an economically viable platform to build apps on.</p>
 
@@ -47,7 +47,7 @@
   <entry>
     <title type="html"><![CDATA[Announcing Prose]]></title>
     <link href="http://prose-app.github.io/blog/2014/08/21/announcing-prose/"/>
-    <updated>2014-08-21T00:34:00-04:00</updated>
+    <updated>2014-08-21T06:34:00+02:00</updated>
     <id>http://prose-app.github.io/blog/2014/08/21/announcing-prose</id>
     <content type="html"><![CDATA[<p>Prose is a new client for App.net. It&rsquo;s uses three panes and a simple swipe navigation to provide an uncluttered and useful App.net experience.</p>
 
