@@ -4,7 +4,7 @@
   <title><![CDATA[Prose for App.net]]></title>
   <link href="http://prose-app.github.io/atom.xml" rel="self"/>
   <link href="http://prose-app.github.io/"/>
-  <updated>2014-10-04T00:02:45+02:00</updated>
+  <updated>2014-11-13T21:16:44+01:00</updated>
   <id>http://prose-app.github.io/</id>
   <author>
     <name><![CDATA[Shawn Throop]]></name>
@@ -12,6 +12,38 @@
   </author>
   <generator uri="http://octopress.org/">Octopress</generator>
 
+  
+  <entry>
+    <title type="html"><![CDATA[Actively Developed]]></title>
+    <link href="http://prose-app.github.io/blog/2014/11/13/actively-developed/"/>
+    <updated>2014-11-13T21:06:48+01:00</updated>
+    <id>http://prose-app.github.io/blog/2014/11/13/actively-developed</id>
+    <content type="html"><![CDATA[<p>If you didn&rsquo;t know, iOS development is not my full time occupation. I&rsquo;m a dancer in a professional ballet company and unfortunately this time of year is busier I had anticipated.</p>
+
+<p>Yes, everyone has responsibilities.  I understand that and would like to be clear and upfront about the development of Prose. The next version is coming.</p>
+
+<h2>What&rsquo;s In The Pipeline?</h2>
+
+<p>Many things are being developed. Here are a few:</p>
+
+<ul>
+<li>Re-written data and networking layers. ADNKit uses an outdated version of AFNetworking, to keep up with iOS 7 and 8&rsquo;s new networking APIs, ADNKit is not being used.</li>
+<li>A new interface. In the current version, horizontal swipes can trigger many things. This is confusing and will be addressed by a new, more modular, interface.</li>
+<li>Inline images in posts.</li>
+<li>Themes.</li>
+<li>Share extension.</li>
+</ul>
+
+
+<p>It&rsquo;s a rewrite of nearly everything.</p>
+
+<p>I may have bitten off more than I can chew given the amount of time I have for development. However, I&rsquo;ve made progress on all of these fronts and am now working on combining everything together into an app I can be proud of.</p>
+
+<p>I apologize for taking so long. If you&rsquo;re a iPhone 6/6+ owner I must apologize again. Scaled apps look terrible and Prose is no exception.</p>
+
+<p>Thank you for your kind words, bug reports, and patronage. The next iteration is coming.</p>
+]]></content>
+  </entry>
   
   <entry>
     <title type="html"><![CDATA[Why Now?]]></title>
