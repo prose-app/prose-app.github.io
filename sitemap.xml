@@ -1,60 +1,30 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9 http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd" xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
-  
-  
-  <url>
-    <loc>http://prose-app.github.io/blog/2014/11/13/actively-developed/</loc>
-    <lastmod>2014-11-13T21:06:48+01:00</lastmod>
-    <priority>0.8</priority>
-  </url>
-  
-  <url>
-    <loc>http://prose-app.github.io/blog/2014/08/21/why-now/</loc>
-    <lastmod>2014-08-21T18:49:15+02:00</lastmod>
-    <priority>0.8</priority>
-  </url>
-  
-  <url>
-    <loc>http://prose-app.github.io/blog/2014/08/21/announcing-prose/</loc>
-    <lastmod>2014-08-21T06:34:00+02:00</lastmod>
-    <priority>0.8</priority>
-  </url>
-  
-  
-  <url>
-    <loc>http://prose-app.github.io/404.html</loc>
-    <lastmod>2014-11-13T22:45:09+01:00</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.7</priority>
-  </url>
-  
-  <url>
-    <loc>http://prose-app.github.io/blog/archives/</loc>
-    <lastmod>2014-11-13T22:45:09+01:00</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.7</priority>
-  </url>
-  
-  <url>
-    <loc>http://prose-app.github.io/</loc>
-    <lastmod>2014-11-13T22:45:09+01:00</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>1.0</priority>
-  </url>
-  
-  <url>
-    <loc>http://prose-app.github.io/blog/</loc>
-    <lastmod>2014-11-13T22:45:09+01:00</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.7</priority>
-  </url>
-  
-  <url>
-    <loc>http://prose-app.github.io/support/</loc>
-    <lastmod>2014-11-13T22:45:09+01:00</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.7</priority>
-  </url>
-  
-  
+<url>
+<loc>http://prose-app.github.io/blog/2014/11/13/actively-developed/</loc>
+<lastmod>2014-11-13T21:06:48+01:00</lastmod>
+</url>
+<url>
+<loc>http://prose-app.github.io/blog/2014/08/21/why-now/</loc>
+<lastmod>2014-08-21T18:49:15+02:00</lastmod>
+</url>
+<url>
+<loc>http://prose-app.github.io/blog/2014/08/21/announcing-prose/</loc>
+<lastmod>2014-08-21T06:34:00+02:00</lastmod>
+</url>
+<url>
+<loc>http://prose-app.github.io/404.html</loc>
+</url>
+<url>
+<loc>http://prose-app.github.io/blog/archives/</loc>
+</url>
+<url>
+<loc>http://prose-app.github.io/</loc>
+</url>
+<url>
+<loc>http://prose-app.github.io/blog/</loc>
+</url>
+<url>
+<loc>http://prose-app.github.io/support/</loc>
+</url>
 </urlset>
